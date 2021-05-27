@@ -1,0 +1,68 @@
+/* Dev pelo :
+	Giovanni de Freitas Fernandes CB 1640488
+*/
+
+* {
+	font-family: Sans-Serif;
+}
+
+.form {
+    width: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.tableView {
+    width: 768px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.row {
+    width: 100%;
+	display: flex;
+	margin: 5px 0px;
+}
+
+td, th {
+    margin: 5px;
+    border: solid 1px #ccc;
+    padding: 3px;
+    text-align: center;
+}
+
+input {
+	width: 50%;
+}
+
+section {
+    margin: auto;
+}
+
+#enviar {
+    width: 100px;
+    margin: auto;
+}
+
+label {
+    width: 50%;
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+th {
+	background-color: #bbb;
+}
+
+
+
+.ViewInput {
+    font-size: 11pt;
+}
+.ViewInput:disabled {
+	color: black;
+}
